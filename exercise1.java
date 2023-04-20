@@ -9,11 +9,11 @@ public class Activity1 {
 
         College();
 
-        assert iWillGraduate == true : "Eguls par";
+        assert iWillGraduate == true : "Panis si BBM";
     }
 
     static void College(){
         iWillGraduate = false;
-        System.out.println("Panis si BBM");
+        //System.out.println("Panis si BBM");
     }
 }
