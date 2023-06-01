@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="96.0" fitWidth="349.0">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="13.0" layoutY="148.0" prefHeight="5.0" prefWidth="324.0" />
+      <Text layoutX="20.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address: 1234 Lorem Ipsum, Dolores" wrappingWidth="215.50390625">
+         <font>
+            <Font name="Times New Roman" size="11.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tel: 123 - 4567" wrappingWidth="100.50390625">
+         <font>
+            <Font name="Times New Roman" size="11.0" />
+         </font>
+      </Text>
+      <Separator layoutX="13.0" layoutY="176.0" prefHeight="5.0" prefWidth="324.0" />
+      <Text layoutX="20.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESCIPTION" wrappingWidth="90.50390625">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="275.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Php" wrappingWidth="23.50390625">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="78.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date: 01 - 01 - 2023        10:23 AM   |    ikeaph@email.com" wrappingWidth="195.50390625">
+         <font>
+            <Font name="Times New Roman" size="8.0" />
+         </font>
+      </Text>
+      <Text layoutX="161.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QTY" wrappingWidth="29.50390625">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="273.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL" wrappingWidth="46.50390625">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="275.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Php" wrappingWidth="23.50390625">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="275.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Php" wrappingWidth="23.50390625">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="275.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Php" wrappingWidth="23.50390625">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="13.0" layoutY="337.0" prefHeight="5.0" prefWidth="324.0" />
+      <Separator layoutX="13.0" layoutY="365.0" prefHeight="5.0" prefWidth="324.0" />
+      <Text layoutX="20.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL" wrappingWidth="90.50390625">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="275.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Php" wrappingWidth="23.50390625">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="name1" layoutX="20.0" layoutY="193.0" prefHeight="17.0" prefWidth="91.0" text="Bedroom Lamp">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name2" layoutX="20.0" layoutY="227.0" prefHeight="17.0" prefWidth="91.0" text="Ceiling Lamp">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name3" layoutX="20.0" layoutY="269.0" prefHeight="17.0" prefWidth="91.0" text="Wall Lamp">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="name4" layoutX="20.0" layoutY="307.0" prefHeight="17.0" prefWidth="91.0" text="Table Lamp">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty1" layoutX="176.0" layoutY="193.0" prefHeight="17.0" prefWidth="30.0" text="0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="305.0" layoutY="229.0" prefHeight="17.0" prefWidth="30.0" text="0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty3" layoutX="175.0" layoutY="269.0" prefHeight="17.0" prefWidth="30.0" text="0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty4" layoutX="175.0" layoutY="307.0" prefHeight="17.0" prefWidth="30.0" text="0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="305.0" layoutY="193.0" prefHeight="17.0" prefWidth="30.0" text="0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty2" layoutX="175.0" layoutY="229.0" prefHeight="17.0" prefWidth="30.0" text="0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="305.0" layoutY="269.0" prefHeight="17.0" prefWidth="30.0" text="0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="305.0" layoutY="306.0" prefHeight="17.0" prefWidth="30.0" text="0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="305.0" layoutY="345.0" prefHeight="17.0" prefWidth="30.0" text="0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
